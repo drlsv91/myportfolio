@@ -6,8 +6,8 @@ import Title from './common/title'
 
 const ResumeScreen = () => {
   return (
-    <div className="mobile-size padding-4">
-      <div className=" d-flex justify-content-between mobile-container">
+    <div className="mobile-size padding-4 ">
+      <div className=" d-flex justify-content-between mobile-container ">
         <div className="width-50">
           <Title label="Professional Experience" />
 
@@ -34,8 +34,8 @@ const ResumeScreen = () => {
           </ExperienceInfo>
         </div>
 
-        <div className="mobile-container">
-          <div className="width-40">
+        <div className="mobile-container width-40">
+          <div className="">
             <Title label="Programming Laguages" />
             <div className="mt-4">
               <ShowSkillContainer
@@ -135,8 +135,8 @@ const ResumeScreen = () => {
             </div>
           </ExperienceInfo>
         </div>
-        <div className="mobile-container">
-          <div className="width-40 mt-4">
+        <div className="mobile-container width-40">
+          <div className=" mt-4">
             <Title label="Frontend Skills" />
             <div className="mt-4">
               <ShowSkillContainer
@@ -175,8 +175,8 @@ const ResumeScreen = () => {
           ></ExperienceInfo>
         </div>
 
-        <div className="mobile-container">
-          <div className="width-40 mt-4">
+        <div className="mobile-container width-40">
+          <div className="mt-4">
             <Title label="DevTools and Other Skills" />
             <div className="mt-4">
               <ShowSkillContainer
@@ -192,7 +192,7 @@ const ResumeScreen = () => {
                 }
               />
               <ShowSkillContainer
-                styles="mt-3"
+                styles="mt-3 "
                 leftText="3D Character Animation"
                 rightComponent={
                   <Rating numberOfDivs={7} numberOfStrength={5} />
