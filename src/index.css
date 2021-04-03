@@ -1,13 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,300;1,600&family=Permanent+Marker&display=swap');
+:root {
+    --c-white: #fff;
+    /* --c-primary-dark: #1f2233; */
+    --c-primary-dark: #a5c562;
+    /* --c-primary-dark: #babea5; */
+    /* --c-primary-medium: #313550; */
+    --c-primary-medium: #babea5;
+    --c-secondary-medium: #f6c683;
+    --c-primary-light: #e7e8dd;
+}
+
+.c-bg-primary-dark {
+    background-color: var(--c-primary-dark);
+    color: var(--c-white);
+}
+
+.bg-primary-light {
+    background-color: var(--c-primary-light);
+}
+
+.c-bg-primary-dark-gradient {
+    background: radial-gradient( var(--c-primary-medium), var(--c-primary-dark), var(--c-primary-medium));
+    color: var(--c-white);
+}
+
+.c-text-primary-dark {
+    color: var(--c-primary-dark);
+}
+
+.c-bg-primary-light {
+    background-color: var(--c-primary-medium);
+    color: var(--c-white);
+}
+
+.c-text-primary-light {
+    color: var(--c-primary-light);
+}
+
+.c-bg-secondary-medium {
+    background-color: var(--c-secondary-medium);
+    color: var(--c-white);
+}
+
+.c-text-secondary-medium {
+    color: var(--c-secondary-medium);
+}
+
+a:focus,
+a:active,
+a:hover {
+    text-decoration: none;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    padding-bottom: 72rem;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+    font-family: 'open Sans', Arial;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* background-color: #cbcdd4 !important; */
+    background-color: rgb(203, 205, 212) !important;
+    background: linear-gradient( 0deg, rgba(203, 205, 212, 0.3), rgba(203, 205, 212, 0.3)), url(./assets/pattern.png);
+    background-attachment: fixed;
+    /* background-size: cover; */
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+    /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; */
 }
