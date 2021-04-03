@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/myportfolio/static/css/main.c521737d.chunk.css",
+    "main.js": "/myportfolio/static/js/main.30064a80.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.30064a80.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.4f4c6c10.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.4f4c6c10.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/myportfolio/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.cf0bbd58.chunk.js": "/myportfolio/static/js/2.cf0bbd58.chunk.js",
+    "static/js/2.cf0bbd58.chunk.js.map": "/myportfolio/static/js/2.cf0bbd58.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/myportfolio/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.c521737d.chunk.css.map": "/myportfolio/static/css/main.c521737d.chunk.css.map",
+    "static/js/2.cf0bbd58.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.cf0bbd58.chunk.js.LICENSE.txt",
+    "static/media/SIgnUp.f8cf5170.png": "/myportfolio/static/media/SIgnUp.f8cf5170.png",
+    "static/media/Students.e07464d7.png": "/myportfolio/static/media/Students.e07464d7.png",
+    "static/media/Teacher_Dashboard.13b31b2e.png": "/myportfolio/static/media/Teacher_Dashboard.13b31b2e.png",
+    "static/media/Welcome.d6c04156.png": "/myportfolio/static/media/Welcome.d6c04156.png",
+    "static/media/dashboardmain.83d04d2e.png": "/myportfolio/static/media/dashboardmain.83d04d2e.png",
+    "static/media/emaily.96a32797.png": "/myportfolio/static/media/emaily.96a32797.png",
+    "static/media/farmcorps.4bdcc984.png": "/myportfolio/static/media/farmcorps.4bdcc984.png",
+    "static/media/jetlight.d5c7cdca.png": "/myportfolio/static/media/jetlight.d5c7cdca.png",
+    "static/media/loginstudent.15e53566.png": "/myportfolio/static/media/loginstudent.15e53566.png",
+    "static/media/oluwaleye_victor.478d6fd1.png": "/myportfolio/static/media/oluwaleye_victor.478d6fd1.png",
+    "static/media/index.css": "/myportfolio/static/media/pattern.d845cad1.png",
+    "static/media/pricing_plan.9c9ae8f4.png": "/myportfolio/static/media/pricing_plan.9c9ae8f4.png",
+    "static/media/signup.4053a296.png": "/myportfolio/static/media/signup.4053a296.png",
+    "static/media/teachers_request.891a306d.png": "/myportfolio/static/media/teachers_request.891a306d.png",
+    "static/media/vidly.6540b7d3.png": "/myportfolio/static/media/vidly.6540b7d3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4f4c6c10.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.cf0bbd58.chunk.js",
+    "static/css/main.c521737d.chunk.css",
+    "static/js/main.30064a80.chunk.js"
+  ]
+}
