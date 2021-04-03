@@ -35,9 +35,7 @@ const Work = ({
               {tech}
             </span>
           ))}
-          <NavLink to="/more" className="badge badge-dark">
-            More..
-          </NavLink>
+          <button className="badge badge-dark">More..</button>
         </div>
       </div>
     </div>
