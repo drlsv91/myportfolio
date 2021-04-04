@@ -15,7 +15,7 @@ font-family: roboto-regular;
     --c-primary-dark: #a5c562;
     /* --c-primary-dark: #babea5; */
     /* --c-primary-medium: #313550; */
-    --c-primary-medium: #babea5;
+    --c-primary-medium: #535641;
     --c-secondary-medium: #f6c683;
     --c-primary-light: #e7e8dd;
     --deep-yellow: #efa31f;
@@ -31,7 +31,7 @@ font-family: roboto-regular;
 }
 
 .c-bg-primary-dark-gradient {
-    background: linear-gradient( to top right, var(--c-primary-dark), var(--c-primary-dark));
+    background: linear-gradient(to top right, #629100, var(--c-primary-dark));
     color: var(--c-white);
 }
 

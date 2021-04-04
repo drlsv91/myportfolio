@@ -149,7 +149,7 @@
 .list-item.active {
     background-color: #e7e8dd;
     padding: 1rem 2rem;
-    box-shadow: 2px 1px 3px 5px #bebebe;
+    box-shadow: 2px 1px 3px 5px rgba(255, 255, 255, 0.1);
 }
 
 .list-item.active .material-icon,
