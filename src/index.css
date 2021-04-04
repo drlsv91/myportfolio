@@ -60,7 +60,7 @@ font-family: roboto-regular;
 a:focus,
 a:active,
 a:hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 
 body {

@@ -159,6 +159,13 @@ const ResumeScreen = () => {
                   <Rating numberOfDivs={7} numberOfStrength={7} />
                 }
               />
+              <ShowSkillContainer
+                styles="mt-3"
+                leftText="React Native"
+                rightComponent={
+                  <Rating numberOfDivs={7} numberOfStrength={4} />
+                }
+              />
             </div>
           </div>
         </div>
