@@ -31,7 +31,7 @@ font-family: roboto-regular;
 }
 
 .c-bg-primary-dark-gradient {
-    background: radial-gradient( var(--c-primary-medium), var(--c-primary-dark), var(--c-primary-medium));
+    background: linear-gradient( to top right, var(--c-primary-dark), var(--c-primary-dark));
     color: var(--c-white);
 }
 
@@ -66,7 +66,7 @@ a:hover {
 body {
     padding-bottom: 72rem;
     /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
-    font-family: 'AllerRegular', Arial !important;
+    font-family: 'Open Sans', sans-serif !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     /* background-color: #cbcdd4 !important; */

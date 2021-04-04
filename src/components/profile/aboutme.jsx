@@ -6,7 +6,7 @@ const AboutMe = () => {
   return (
     <Col md={6} xl={6} sm={12} className="mobile-padding">
       {/* <CustomTypingEffect /> */}
-      <h1 className="font-size-25px ">
+      <h1 className="font-size-25px text-center">
         <Typewriter
           options={{
             strings: ['Oluwaleye Victor'],
@@ -18,7 +18,7 @@ const AboutMe = () => {
           }}
         />
       </h1>
-      <h3 className="font-size-18px mobile-font bg-deep-yellow medium-title">
+      <h3 className="font-size-18px mobile-font  medium-title">
         Web Developer
       </h3>
       <p className="text-left noSelect">
