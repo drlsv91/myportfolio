@@ -10,6 +10,12 @@ const TopProfile = ({ data }) => {
       className={`c-bg-primary-dark-gradient overflow-hidden transition-all ${
         data[0].isActive ? 'h-100 p-5' : 'h-0'
       }`}
+      // style={{
+      //   border: '1px solid red',
+      //   display: 'flex',
+      //   alignItems: 'center',
+      //   justifyContent: 'center',
+      // }}
     >
       <Col sm={12} md={8} xl={8}>
         <Row className={`overflow-hidden `}>

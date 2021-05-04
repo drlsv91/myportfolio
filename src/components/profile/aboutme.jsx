@@ -22,9 +22,9 @@ const AboutMe = () => {
         Web Developer
       </h3>
       <p className="text-left noSelect">
-        I am a full stack developer with a strong desire for self-improvement.
-        patient, a problem solver, an optimist and have strong social values
-        that will be beneficial to a team
+        I am a web developer with a strong desire for self-improvement. patient,
+        a problem solver, an optimist and have strong social values that will be
+        beneficial to a team
       </p>
     </Col>
   )
