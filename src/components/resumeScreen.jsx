@@ -12,6 +12,23 @@ const ResumeScreen = () => {
           <Title label="Professional Experience" />
 
           <ExperienceInfo
+            companyName="Hazon Technologies, Lagos"
+            year="2021 - Present"
+            position="FullStack Engineer"
+          >
+            <div className="font-size-14px paragraphs">
+              <p>
+                Implemented new features to exisiting products and increase
+                customer satifaction by 10%
+              </p>
+              <p>
+                Re-wrote an existing code base to provide for easy modification
+                and extension in the future
+              </p>
+              <p>Participated in code reviews and documentation</p>
+            </div>
+          </ExperienceInfo>
+          <ExperienceInfo
             companyName="StanLab VR, Lagos"
             year="2020 - Present"
             position="FullStack Engineer"
@@ -92,13 +109,23 @@ const ResumeScreen = () => {
           <Title label="Backend Skills" />
           <div className="mt-4">
             <ShowSkillContainer
-              leftText="Nodejs"
+              leftText="Node.js"
               rightComponent={<Rating numberOfDivs={7} numberOfStrength={7} />}
             />
             <ShowSkillContainer
               styles="mt-3"
-              leftText="Expressjs"
+              leftText="Express.js"
               rightComponent={<Rating numberOfDivs={7} numberOfStrength={7} />}
+            />
+            <ShowSkillContainer
+              styles="mt-3"
+              leftText="Sails.js"
+              rightComponent={<Rating numberOfDivs={7} numberOfStrength={6} />}
+            />
+            <ShowSkillContainer
+              styles="mt-3"
+              leftText="Microsoft Azure"
+              rightComponent={<Rating numberOfDivs={7} numberOfStrength={6} />}
             />
             <ShowSkillContainer
               styles="mt-3"
@@ -135,6 +162,7 @@ const ResumeScreen = () => {
             </div>
           </ExperienceInfo>
         </div>
+
         <div className="mobile-container width-40">
           <div className=" mt-4">
             <Title label="Frontend Skills" />
@@ -170,7 +198,24 @@ const ResumeScreen = () => {
           </div>
         </div>
       </div>
-
+      <div className="width-50">
+        <ExperienceInfo
+          companyName="Freelance, Lagos  "
+          year="August  2018 - May  2019"
+          position="WordPress Developer"
+        >
+          <div
+            className="font-size-14px paragraphs"
+            style={{ marginBottom: '2rem' }}
+          >
+            <p>
+              Built and maintained web services according to client
+              specification.
+            </p>
+            <p>Developed applications to individual client standard.</p>
+          </div>
+        </ExperienceInfo>
+      </div>
       {/* ****************************************************** */}
       <div className=" d-flex justify-content-between mobile-container">
         <div className="width-50">
